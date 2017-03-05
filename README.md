@@ -39,19 +39,20 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
 
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/water.png)
 
+
 ### 三、USEAPI
- 
-     //集成
+     
+     //集成
      pod 'XYQCollectionViewLayout', '~> 1.0.0'
     
-    //圆式布局
+     //圆式布局
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
     
-    //线式布局
+     //线式布局
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomLineLayout alloc]init]];
     
-    //堆叠式布局
+     //堆叠式布局
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomStackLayout alloc]init]];
     
-    //瀑布流布局,此次还需要实现代理方法，设置图片真实的宽高比，看demo即可
+     //瀑布流布局,此次还需要实现代理方法，设置图片真实的宽高比，看demo即可
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[WaterFlowLayout alloc]init]];
