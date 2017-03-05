@@ -42,6 +42,9 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
 
 ### 三、USEAPI
      
+     //每一次布局前的准备工作
+    -(void)prepareLayout
+    
      pod 'XYQCollectionViewLayout', '~> 1.0.0'
     
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
