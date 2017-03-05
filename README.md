@@ -20,6 +20,7 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
     //布局所有item的属性,包括header、footer
     -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
     
+ ### 自定义的布局方式需要选择性重写CollectionViewLayout中的方法，实现自己需要的效果，方法如下所示：   
  ## 圆式布局
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/circle.png)
