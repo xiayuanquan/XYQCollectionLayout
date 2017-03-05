@@ -21,7 +21,7 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
     -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
  
  
- ## 自定义的集中布局方式如下：
+ ### 自定义的集中布局方式如下：
  
 1. 圆式布局
  
