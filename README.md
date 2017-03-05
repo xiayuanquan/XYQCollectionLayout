@@ -48,14 +48,18 @@ pod 'XYQCollectionViewLayout', '~> 1.0.0'
 ### 四、init
 
     //使用圆式布局
+    
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
     
     //使用线式布局
+    
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomLineLayout alloc]init]];
     
     //使用堆叠式布局 
+    
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomStackLayout alloc]init]];
     
     //使用瀑布流布局，比较特别，还需要实现代理，设置图片真实宽高，详见demo
+    
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[WaterFlowLayout alloc]init]];
     
