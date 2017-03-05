@@ -6,27 +6,22 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
 ### 自定义的布局方式需要选择性重写CollectionViewLayout中的方法，实现自己需要的效果，方法如下所示：
 
     //每一次布局前的准备工作
-    
     -(void)prepareLayout
     
-    //设置collectionView滚动区域
-    
+    //设置collectionView滚动区域 
     -(CGSize)collectionViewContentSize
     
-    //允许每一次重新布局
-    
+    //允许每一次重新布局   
     -(BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
     
     //布局每一个属性
-    
     -(UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath
     
     //布局所有item的属性,包括header、footer
-    
     -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
     
  ### 1、圆式布局
-  https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/circle.png
+  https://github.com/xiayuanquan/XYQCollectionLayout/Demo/CollectionViewLayout/blob/master/CollectionViewLayout/screenshots/circle.png
  
  ### 2、堆叠式布局
  
