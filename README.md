@@ -1,7 +1,7 @@
 # XYQCollectionLayout
 UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
 
-### CollectionView是iOS中一个非常重要的控件，它可以实现很多的炫酷的效果，例如轮播图、瀑布流、相册浏览等。其实它和TableView很相似，都是对cell进行复用，提高系统性能。然后也有一点不同的地方，CollectionView的展示由布局决定。但是它只是提供默认的布局方式流式布局，我们可以自定义布局，实现自己想要的各种效果。
+### 一、CollectionView是iOS中一个非常重要的控件，它可以实现很多的炫酷的效果，例如轮播图、瀑布流、相册浏览等。其实它和TableView很相似，都是对cell进行复用，提高系统性能。然后也有一点不同的地方，CollectionView的展示由布局决定。但是它只是提供默认的布局方式流式布局，我们可以自定义布局，实现自己想要的各种效果。
 
 ### 自定义的布局方式需要选择性重写CollectionViewLayout中的方法，实现自己需要的效果，方法如下所示：
 
@@ -21,7 +21,7 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
     -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
  
  
-### 自定义的集中布局方式如下：
+### 二、自定义的集中布局方式如下：
  
 1. 圆式布局
  
@@ -39,14 +39,19 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
 
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/water.png)
 
-### USEAPI
-
-    pod 'XYQCollectionViewLayout', '~> 1.0.0'
+### 三、USEAPI
+ 
+     //集成
+     pod 'XYQCollectionViewLayout', '~> 1.0.0'
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
+    //圆式布局
+    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomLineLayout alloc]init]];
+    //线式布局
+    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomLineLayout alloc]init]];
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomStackLayout alloc]init]];
+    //堆叠式布局
+    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomStackLayout alloc]init]];
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[WaterFlowLayout alloc]init]];
+    //瀑布流布局,此次还需要实现代理方法，设置图片真实的宽高比，看demo即可
+    _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[WaterFlowLayout alloc]init]];
