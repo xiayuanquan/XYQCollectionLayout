@@ -21,7 +21,7 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
     -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
     
  ### 1、圆式布局
-  https://github.com/xiayuanquan/XYQCollectionLayout/Demo/CollectionViewLayout/blob/master/CollectionViewLayout/screenshots/circle.png
+![image]https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/circle.png
  
  ### 2、堆叠式布局
  
