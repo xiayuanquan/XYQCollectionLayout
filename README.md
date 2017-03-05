@@ -47,6 +47,21 @@ pod 'XYQCollectionViewLayout', '~> 1.0.0'
     
 ### 四、init
 
+    //每一次布局前的准备工作
+    -(void)prepareLayout
+    
+    //设置collectionView滚动区域 
+    -(CGSize)collectionViewContentSize
+    
+    //允许每一次重新布局   
+    -(BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
+    
+    //布局每一个属性
+    -(UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath
+    
+    //布局所有item的属性,包括header、footer
+    -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
+   
     //使用圆式布局
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
     
