@@ -22,18 +22,19 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
  
  
  ## 自定义的集中布局方式如下：
- ### 圆式布局
+ 
+1. 圆式布局
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/circle.png)
  
- ### 堆叠式布局
+2. 堆叠式布局
  
  ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/stack.png)
  
- ### 线式布局
+3. 线式布局
  
  ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/line.png)
  
- ### 瀑布流布局
+4. 瀑布流布局
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/water.png)
