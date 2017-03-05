@@ -19,20 +19,21 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
     
     //布局所有item的属性,包括header、footer
     -(NSArray *)layoutAttributesForElementsInRect:(CGRect)rect
-    
- ### 自定义的布局方式需要选择性重写CollectionViewLayout中的方法，实现自己需要的效果，方法如下所示：   
- ## 圆式布局
+ 
+ 
+ ## 自定义的集中布局方式如下：
+ ### 圆式布局
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/circle.png)
  
- ## 堆叠式布局
+ ### 堆叠式布局
  
  ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/stack.png)
  
- ## 线式布局
+ ### 线式布局
  
  ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/line.png)
  
- ## 瀑布流布局
-
+ ### 瀑布流布局
+ 
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/water.png)
