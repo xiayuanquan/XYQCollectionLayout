@@ -23,20 +23,19 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
  
 ### 二、自定义的集中布局方式如下：
  
-- 圆式布局
+- 圆式布局：将所有的图片环绕成一圈，可以用在相册中
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/circle.png)
  
-- 堆叠式布局
+- 堆叠式布局：将所有的图片堆叠起来，只有最上面的三张图片可以看到，例如”探探app“
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/stack.png)
  
-- 线式布局
+- 线式布局：将图片左右轮播滚动显示，图片滚到离中间一定距离时，图片开始放大
  
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/line.png)
  
-- 瀑布流布局
-
+- 瀑布流布局：图片相错排列，增加美感，例如”蘑菇街“
 ![image](https://github.com/xiayuanquan/XYQCollectionLayout/blob/master/Demo/CollectionViewLayout/CollectionViewLayout/screenshots/water.png)
 
 
