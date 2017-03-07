@@ -49,6 +49,8 @@ pod 'XYQCollectionViewLayout', '~> 1.0.0'
 ### 四、How to use Api
 
     
+    
+    
     //使用圆式布局
     _collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:[[CustomCircleLayout alloc]init]];
     
