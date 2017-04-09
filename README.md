@@ -42,7 +42,7 @@ UICollectionView Layout (Defalut、Circle、Stack、Line、Water)
 
 ### 三、CocoaPods
     
-pod 'XYQCollectionViewLayout', '~> 1.0.0'
+pod 'XYQCollectionLayout', '~> 1.0.0'
    
    
     
